@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE32E2331CB0AA03007F14D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32E2321CB0AA03007F14D4 /* AppDelegate.swift */; };
+		BE32E2381CB0AA03007F14D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32E2361CB0AA03007F14D4 /* Main.storyboard */; };
+		BE32E23A1CB0AA03007F14D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE32E2391CB0AA03007F14D4 /* Assets.xcassets */; };
+		BE32E23D1CB0AA03007F14D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32E23B1CB0AA03007F14D4 /* LaunchScreen.storyboard */; };
+		BE32E2481CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32E2471CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.swift */; };
+		BE32E2531CB0AA65007F14D4 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32E2521CB0AA65007F14D4 /* DemoViewController.swift */; };
+		BE32E2561CB0AD6F007F14D4 /* SwiftyVerticalScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32E2551CB0AD6F007F14D4 /* SwiftyVerticalScrollBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE32E2441CB0AA03007F14D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE32E2271CB0AA03007F14D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE32E22E1CB0AA03007F14D4;
+			remoteInfo = SwiftyVerticalScrollBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE32E22F1CB0AA03007F14D4 /* SwiftyVerticalScrollBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyVerticalScrollBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE32E2321CB0AA03007F14D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE32E2371CB0AA03007F14D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE32E2391CB0AA03007F14D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE32E23C1CB0AA03007F14D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE32E23E1CB0AA03007F14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE32E2431CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyVerticalScrollBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE32E2471CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyVerticalScrollBarUITests.swift; sourceTree = "<group>"; };
+		BE32E2491CB0AA03007F14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE32E2521CB0AA65007F14D4 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		BE32E2551CB0AD6F007F14D4 /* SwiftyVerticalScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyVerticalScrollBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE32E22C1CB0AA03007F14D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE32E2401CB0AA03007F14D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE32E2261CB0AA03007F14D4 = {
+			isa = PBXGroup;
+			children = (
+				BE32E2311CB0AA03007F14D4 /* SwiftyVerticalScrollBar */,
+				BE32E2461CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests */,
+				BE32E2301CB0AA03007F14D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE32E2301CB0AA03007F14D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE32E22F1CB0AA03007F14D4 /* SwiftyVerticalScrollBar.app */,
+				BE32E2431CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE32E2311CB0AA03007F14D4 /* SwiftyVerticalScrollBar */ = {
+			isa = PBXGroup;
+			children = (
+				BE32E2321CB0AA03007F14D4 /* AppDelegate.swift */,
+				BE32E2521CB0AA65007F14D4 /* DemoViewController.swift */,
+				BE32E2551CB0AD6F007F14D4 /* SwiftyVerticalScrollBar.swift */,
+				BE32E2361CB0AA03007F14D4 /* Main.storyboard */,
+				BE32E23B1CB0AA03007F14D4 /* LaunchScreen.storyboard */,
+				BE32E2391CB0AA03007F14D4 /* Assets.xcassets */,
+				BE32E23E1CB0AA03007F14D4 /* Info.plist */,
+			);
+			path = SwiftyVerticalScrollBar;
+			sourceTree = "<group>";
+		};
+		BE32E2461CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE32E2471CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.swift */,
+				BE32E2491CB0AA03007F14D4 /* Info.plist */,
+			);
+			path = SwiftyVerticalScrollBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE32E22E1CB0AA03007F14D4 /* SwiftyVerticalScrollBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE32E24C1CB0AA03007F14D4 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar" */;
+			buildPhases = (
+				BE32E22B1CB0AA03007F14D4 /* Sources */,
+				BE32E22C1CB0AA03007F14D4 /* Frameworks */,
+				BE32E22D1CB0AA03007F14D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyVerticalScrollBar;
+			productName = SwiftyVerticalScrollBar;
+			productReference = BE32E22F1CB0AA03007F14D4 /* SwiftyVerticalScrollBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE32E2421CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE32E24F1CB0AA03007F14D4 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBarUITests" */;
+			buildPhases = (
+				BE32E23F1CB0AA03007F14D4 /* Sources */,
+				BE32E2401CB0AA03007F14D4 /* Frameworks */,
+				BE32E2411CB0AA03007F14D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE32E2451CB0AA03007F14D4 /* PBXTargetDependency */,
+			);
+			name = SwiftyVerticalScrollBarUITests;
+			productName = SwiftyVerticalScrollBarUITests;
+			productReference = BE32E2431CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE32E2271CB0AA03007F14D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = satoshin;
+				TargetAttributes = {
+					BE32E22E1CB0AA03007F14D4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BE32E2421CB0AA03007F14D4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BE32E22E1CB0AA03007F14D4;
+					};
+				};
+			};
+			buildConfigurationList = BE32E22A1CB0AA03007F14D4 /* Build configuration list for PBXProject "SwiftyVerticalScrollBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE32E2261CB0AA03007F14D4;
+			productRefGroup = BE32E2301CB0AA03007F14D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE32E22E1CB0AA03007F14D4 /* SwiftyVerticalScrollBar */,
+				BE32E2421CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE32E22D1CB0AA03007F14D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32E23D1CB0AA03007F14D4 /* LaunchScreen.storyboard in Resources */,
+				BE32E23A1CB0AA03007F14D4 /* Assets.xcassets in Resources */,
+				BE32E2381CB0AA03007F14D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE32E2411CB0AA03007F14D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE32E22B1CB0AA03007F14D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32E2531CB0AA65007F14D4 /* DemoViewController.swift in Sources */,
+				BE32E2331CB0AA03007F14D4 /* AppDelegate.swift in Sources */,
+				BE32E2561CB0AD6F007F14D4 /* SwiftyVerticalScrollBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE32E23F1CB0AA03007F14D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE32E2481CB0AA03007F14D4 /* SwiftyVerticalScrollBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE32E2451CB0AA03007F14D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE32E22E1CB0AA03007F14D4 /* SwiftyVerticalScrollBar */;
+			targetProxy = BE32E2441CB0AA03007F14D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE32E2361CB0AA03007F14D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE32E2371CB0AA03007F14D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE32E23B1CB0AA03007F14D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE32E23C1CB0AA03007F14D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE32E24A1CB0AA03007F14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE32E24B1CB0AA03007F14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE32E24D1CB0AA03007F14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyVerticalScrollBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = STSN.SwiftyVerticalScrollBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE32E24E1CB0AA03007F14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyVerticalScrollBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = STSN.SwiftyVerticalScrollBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE32E2501CB0AA03007F14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyVerticalScrollBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = STSN.SwiftyVerticalScrollBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyVerticalScrollBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BE32E2511CB0AA03007F14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyVerticalScrollBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = STSN.SwiftyVerticalScrollBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyVerticalScrollBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE32E22A1CB0AA03007F14D4 /* Build configuration list for PBXProject "SwiftyVerticalScrollBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32E24A1CB0AA03007F14D4 /* Debug */,
+				BE32E24B1CB0AA03007F14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE32E24C1CB0AA03007F14D4 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32E24D1CB0AA03007F14D4 /* Debug */,
+				BE32E24E1CB0AA03007F14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE32E24F1CB0AA03007F14D4 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE32E2501CB0AA03007F14D4 /* Debug */,
+				BE32E2511CB0AA03007F14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE32E2271CB0AA03007F14D4 /* Project object */;
+}
