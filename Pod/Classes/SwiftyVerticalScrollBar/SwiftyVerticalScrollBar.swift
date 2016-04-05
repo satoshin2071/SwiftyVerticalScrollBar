@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 import QuartzCore
 
-class SwiftyVerticalScrollBar : UIControl {
+public class SwiftyVerticalScrollBar : UIControl {
     
     //-------------------------
     // MARK: - stored property
@@ -86,14 +86,14 @@ class SwiftyVerticalScrollBar : UIControl {
     // MARK: - initializers
     //----------------------
     
-    init(frame:CGRect, targetScrollView:UIScrollView) {
+    public init(frame:CGRect, targetScrollView:UIScrollView) {
         self.targetScrollView = targetScrollView
         super.init(frame: frame)
         self.setup()
     }
     
     @available (*, unavailable, message="Let's use the init(identifier) instead")
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -112,7 +112,7 @@ class SwiftyVerticalScrollBar : UIControl {
         self.targetScrollView.removeObserver(self, Key: .contentSize)
     }
     
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         
         guard (object as? UIScrollView) == self.targetScrollView else {
             return
@@ -125,7 +125,7 @@ class SwiftyVerticalScrollBar : UIControl {
     // MARK: - layout
     //----------------------
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         guard self.contentHeight >= self.frameHeight else {
@@ -179,7 +179,7 @@ class SwiftyVerticalScrollBar : UIControl {
     // MARK: - override UIControl method
     //----------------------------------
     
-    override func beginTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
+    override public func beginTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
         
         guard self.isHandleVisible else{
             return false
@@ -194,7 +194,7 @@ class SwiftyVerticalScrollBar : UIControl {
         return true
     }
     
-    override func continueTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
+    override public func continueTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
 
         let touchLocation = touch.locationInView(self)
         
@@ -211,7 +211,7 @@ class SwiftyVerticalScrollBar : UIControl {
         return true
     }
     
-    override func endTrackingWithTouch(touch: UITouch?, withEvent event: UIEvent?) {
+    override public func endTrackingWithTouch(touch: UITouch?, withEvent event: UIEvent?) {
         self.lastTouchLocation = CGPointZero
         self.isHandleDragged = false
         self.handleTransform(expand: false)
@@ -245,7 +245,7 @@ private extension SwiftyVerticalScrollBar {
 }
 
 protocol Keycodable {
-    associatedtype ObserverKeys : RawRepresentable
+    typealias ObserverKeys : RawRepresentable
 }
 
 extension UIScrollView : Keycodable {

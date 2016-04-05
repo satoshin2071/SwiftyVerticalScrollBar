@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import SwiftyVerticalScrollBar
 
 class DemoViewController: UIViewController {
 
