@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftyVerticalScrollBar_Example', :exclusive => true do
+  pod 'SwiftyVerticalScrollBar', :path => '../'
+end
+
+target 'SwiftyVerticalScrollBar_Tests', :exclusive => true do
+  pod 'SwiftyVerticalScrollBar', :path => '../'
+
+  
+end
