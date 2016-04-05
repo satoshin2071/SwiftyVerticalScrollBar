@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1AA949B852326817DA1158F8 /* Pods_SwiftyVerticalScrollBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5B0A7112989882016601BF /* Pods_SwiftyVerticalScrollBar_Example.framework */; };
+		39AA8E7E1CB3CDC60028652B /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA8E7C1CB3CDC60028652B /* DemoViewController.swift */; };
+		39AA8E7F1CB3CDC60028652B /* SwiftyVerticalScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA8E7D1CB3CDC60028652B /* SwiftyVerticalScrollBar.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -30,10 +31,11 @@
 /* Begin PBXFileReference section */
 		0F8DEDF25E9571D134479499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		32062DC70CA1FC97D706B3DF /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		39AA8E7C1CB3CDC60028652B /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		39AA8E7D1CB3CDC60028652B /* SwiftyVerticalScrollBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyVerticalScrollBar.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyVerticalScrollBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyVerticalScrollBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -93,8 +95,9 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyVerticalScrollBar */ = {
 			isa = PBXGroup;
 			children = (
+				39AA8E7C1CB3CDC60028652B /* DemoViewController.swift */,
+				39AA8E7D1CB3CDC60028652B /* SwiftyVerticalScrollBar.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -359,7 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				39AA8E7F1CB3CDC60028652B /* SwiftyVerticalScrollBar.swift in Sources */,
+				39AA8E7E1CB3CDC60028652B /* DemoViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

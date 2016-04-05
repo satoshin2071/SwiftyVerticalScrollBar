@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  SwiftyVerticalScrollBar
 //
-//  Created by 佐藤慎 on 04/05/2016.
-//  Copyright (c) 2016 佐藤慎. All rights reserved.
-//
 
 import UIKit
 

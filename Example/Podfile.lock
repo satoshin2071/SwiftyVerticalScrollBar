@@ -1,0 +1,14 @@
+PODS:
+  - SwiftyVerticalScrollBar (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyVerticalScrollBar (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyVerticalScrollBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyVerticalScrollBar: e2d0eaed9b420f54bce39fa8e539ce1d86d8f8f7
+
+COCOAPODS: 0.39.0
