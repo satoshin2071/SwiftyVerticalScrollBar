@@ -245,7 +245,7 @@ private extension SwiftyVerticalScrollBar {
 }
 
 protocol Keycodable {
-    typealias ObserverKeys : RawRepresentable
+    associatedtype ObserverKeys : RawRepresentable
 }
 
 extension UIScrollView : Keycodable {
