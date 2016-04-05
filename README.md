@@ -28,7 +28,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ![](https://raw.githubusercontent.com/satoshin2071/SwiftyVerticalScrollBar/master/ss.gif)
 
-```
+```Swift
 DemoViewController.swift
 
 override func viewDidLoad() {
