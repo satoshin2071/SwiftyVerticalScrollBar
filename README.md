@@ -2,7 +2,7 @@
 
 A custom scrollbar for a UIScrollView or UIScrollView's subclasses. This is a re-write [WKVerticalScrollBar](https://github.com/litl/WKVerticalScrollBar) in Swift
 
-[![CI Status](http://img.shields.io/travis/佐藤慎/SwiftyVerticalScrollBar.svg?style=flat)](https://travis-ci.org/佐藤慎/SwiftyVerticalScrollBar)
+[![CI Status](http://img.shields.io/travis/satoshin2071/SwiftyVerticalScrollBar.svg?style=flat)](https://travis-ci.org/satoshin2071/SwiftyVerticalScrollBar)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyVerticalScrollBar.svg?style=flat)](http://cocoapods.org/pods/SwiftyVerticalScrollBar)
 [![License](https://img.shields.io/cocoapods/l/SwiftyVerticalScrollBar.svg?style=flat)](http://cocoapods.org/pods/SwiftyVerticalScrollBar)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyVerticalScrollBar.svg?style=flat)](http://cocoapods.org/pods/SwiftyVerticalScrollBar)
