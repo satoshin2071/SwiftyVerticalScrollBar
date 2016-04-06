@@ -24,7 +24,7 @@ pod "SwiftyVerticalScrollBar"
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-1 Please uncheck the checkbox of `underTopBarin` if ViewController to use the UINavigationController
+1 Please uncheck the checkbox of `underTopBars` if ViewController to use the UINavigationController
 
 ![](https://raw.githubusercontent.com/satoshin2071/SwiftyVerticalScrollBar/master/underTopBar.png)
 
