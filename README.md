@@ -24,9 +24,11 @@ pod "SwiftyVerticalScrollBar"
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-**Example**
+1 Please uncheck the checkbox of `underTopBarin` if ViewController to use the UINavigationController
 
-![](https://raw.githubusercontent.com/satoshin2071/SwiftyVerticalScrollBar/master/ss.gif)
+![](https://raw.githubusercontent.com/satoshin2071/SwiftyVerticalScrollBar/master/underTopBar.png)
+
+2 initialize SwiftyVerticalScrollBar in viewDidLoad
 
 ```Swift
 DemoViewController.swift
@@ -37,6 +39,12 @@ override func viewDidLoad() {
         self.scrollBar = SwiftyVerticalScrollBar(frame: CGRectZero, targetScrollView: self.tableView)
         self.view.addSubview(self.scrollBar!)
 }
+```
+
+3 set frame in viewDidLayoutSubviews
+
+```Swift
+DemoViewController.swift
 
 override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -45,6 +53,11 @@ override func viewDidLayoutSubviews() {
 }
 
 ```
+
+4 Build and Run!
+
+![](https://raw.githubusercontent.com/satoshin2071/SwiftyVerticalScrollBar/master/ss.gif)
+
 
 ## License
 
