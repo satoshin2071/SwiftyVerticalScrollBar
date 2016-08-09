@@ -17,8 +17,15 @@ SwiftyVerticalScrollBar is available through [CocoaPods](http://cocoapods.org). 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SwiftyVerticalScrollBar"
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TargetName' do
+  pod 'SwiftyVerticalScrollBar'
+end
 ```
+
+CocoaPods 1.0.0 new [specification](https://guides.cocoapods.org/using/the-podfile.html). all your pod include should be specified target based
 
 ## Usage
 
