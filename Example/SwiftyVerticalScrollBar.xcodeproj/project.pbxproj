@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AA949B852326817DA1158F8 /* Pods_SwiftyVerticalScrollBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5B0A7112989882016601BF /* Pods_SwiftyVerticalScrollBar_Example.framework */; };
 		39AA8E7E1CB3CDC60028652B /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA8E7C1CB3CDC60028652B /* DemoViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A8BDC5077FADD3C8BE30DAB6 /* Pods_SwiftyVerticalScrollBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BA2625D151B9F276621D9B /* Pods_SwiftyVerticalScrollBar_Tests.framework */; };
+		D4E7E57B7868FCBF9FCF35D3 /* Pods_SwiftyVerticalScrollBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C0CC5C9323747DE6EC7342 /* Pods_SwiftyVerticalScrollBar_Example.framework */; };
+		E817A492215DEDBC58DA3310 /* Pods_SwiftyVerticalScrollBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D3721A15B5073E77182E5E /* Pods_SwiftyVerticalScrollBar_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,10 @@
 
 /* Begin PBXFileReference section */
 		0F8DEDF25E9571D134479499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		32062DC70CA1FC97D706B3DF /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		39AA8E7C1CB3CDC60028652B /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		4FEADE97C822E0F6B8F6CB81 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54C0CC5C9323747DE6EC7342 /* Pods_SwiftyVerticalScrollBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556C2511AF794A55C6E5B300 /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyVerticalScrollBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyVerticalScrollBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +42,11 @@
 		607FACE51AFB9204008FA782 /* SwiftyVerticalScrollBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyVerticalScrollBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6A7BECEF819DCD59FB8405C5 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8EE4445EB1B2DC330F4153AE /* SwiftyVerticalScrollBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyVerticalScrollBar.podspec; path = ../SwiftyVerticalScrollBar.podspec; sourceTree = "<group>"; };
-		90BA2625D151B9F276621D9B /* Pods_SwiftyVerticalScrollBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94F55EE4A12C7CB436D21684 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A058D6A5DA6A7B69710F6CC /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0365B2049D90B0F5AD1D5E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A84815AE01CAE611BEC3CE49 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD5B0A7112989882016601BF /* Pods_SwiftyVerticalScrollBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19A8A4BCC46A8CD0A7C412D /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7D3721A15B5073E77182E5E /* Pods_SwiftyVerticalScrollBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA949B852326817DA1158F8 /* Pods_SwiftyVerticalScrollBar_Example.framework in Frameworks */,
+				D4E7E57B7868FCBF9FCF35D3 /* Pods_SwiftyVerticalScrollBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BDC5077FADD3C8BE30DAB6 /* Pods_SwiftyVerticalScrollBar_Tests.framework in Frameworks */,
+				E817A492215DEDBC58DA3310 /* Pods_SwiftyVerticalScrollBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB340213AEF9015D21DB17E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C0CC5C9323747DE6EC7342 /* Pods_SwiftyVerticalScrollBar_Example.framework */,
+				E7D3721A15B5073E77182E5E /* Pods_SwiftyVerticalScrollBar_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +85,8 @@
 				607FACD21AFB9204008FA782 /* Example for SwiftyVerticalScrollBar */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				744A30779CC2C3CEB4030863 /* Pods */,
-				BDB4DEDF31C76A98DCE60E12 /* Frameworks */,
+				7163484618176ECAE1000966 /* Pods */,
+				3CB340213AEF9015D21DB17E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,24 +148,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		744A30779CC2C3CEB4030863 /* Pods */ = {
+		7163484618176ECAE1000966 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94F55EE4A12C7CB436D21684 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */,
-				A84815AE01CAE611BEC3CE49 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */,
-				F19A8A4BCC46A8CD0A7C412D /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */,
-				32062DC70CA1FC97D706B3DF /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */,
+				4FEADE97C822E0F6B8F6CB81 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */,
+				6A7BECEF819DCD59FB8405C5 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */,
+				9A058D6A5DA6A7B69710F6CC /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */,
+				556C2511AF794A55C6E5B300 /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BDB4DEDF31C76A98DCE60E12 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD5B0A7112989882016601BF /* Pods_SwiftyVerticalScrollBar_Example.framework */,
-				90BA2625D151B9F276621D9B /* Pods_SwiftyVerticalScrollBar_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar_Example" */;
 			buildPhases = (
-				C95FF0A570488BBD6F87E0D6 /* Check Pods Manifest.lock */,
+				8A0D0B8D276DBDDC367C84C9 /* 📦 Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				F076F34CB9D4D6DC645200A0 /* Embed Pods Frameworks */,
-				AA176784EE48AD9CBDE9E149 /* Copy Pods Resources */,
+				E7F5962518035B268BAE6072 /* 📦 Embed Pods Frameworks */,
+				87C865513D1CC2113DCD4274 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar_Tests" */;
 			buildPhases = (
-				74867B6F40CC9C7CE46233A7 /* Check Pods Manifest.lock */,
+				D15765E5BB6B693DA57617E5 /* 📦 Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				95DBD89F4E837C566A80A71D /* Embed Pods Frameworks */,
-				E67E446C4DD0770E2B2665B7 /* Copy Pods Resources */,
+				69E4D1F19CD7CAFBF7617C20 /* 📦 Embed Pods Frameworks */,
+				DFB0E0E37DD9014A36DD8ED1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +210,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -262,29 +264,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		74867B6F40CC9C7CE46233A7 /* Check Pods Manifest.lock */ = {
+		69E4D1F19CD7CAFBF7617C20 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		95DBD89F4E837C566A80A71D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +279,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA176784EE48AD9CBDE9E149 /* Copy Pods Resources */ = {
+		87C865513D1CC2113DCD4274 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,14 +294,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C95FF0A570488BBD6F87E0D6 /* Check Pods Manifest.lock */ = {
+		8A0D0B8D276DBDDC367C84C9 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,14 +309,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E67E446C4DD0770E2B2665B7 /* Copy Pods Resources */ = {
+		D15765E5BB6B693DA57617E5 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB0E0E37DD9014A36DD8ED1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,14 +339,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F076F34CB9D4D6DC645200A0 /* Embed Pods Frameworks */ = {
+		E7F5962518035B268BAE6072 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +417,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -460,8 +464,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -480,40 +486,49 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94F55EE4A12C7CB436D21684 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */;
+			baseConfigurationReference = 4FEADE97C822E0F6B8F6CB81 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyVerticalScrollBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A84815AE01CAE611BEC3CE49 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */;
+			baseConfigurationReference = 6A7BECEF819DCD59FB8405C5 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftyVerticalScrollBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F19A8A4BCC46A8CD0A7C412D /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9A058D6A5DA6A7B69710F6CC /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,13 +541,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32062DC70CA1FC97D706B3DF /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 556C2511AF794A55C6E5B300 /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,6 +559,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

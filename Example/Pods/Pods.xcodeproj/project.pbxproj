@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F07B6F77AF0E754CF65569564F058BF /* Pods-SwiftyVerticalScrollBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BF4F166920FD58CCFF673744FDA5F /* Pods-SwiftyVerticalScrollBar_Tests-dummy.m */; };
+		507B52B393C3119AC92567430503934A /* SwiftyVerticalScrollBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F036AF93DA9A950926EAFA3CF13AE680 /* SwiftyVerticalScrollBar-dummy.m */; };
+		736501BA57FFDB12B2CD5BF8A80F5009 /* Pods-SwiftyVerticalScrollBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A25DAF54FEA5376E78AC43E92438F6FD /* Pods-SwiftyVerticalScrollBar_Example-dummy.m */; };
+		7D2FA84D66EE798F63C9EE6582731387 /* SwiftyVerticalScrollBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74C8260949FB1FFAEFBCB786E489BF70 /* SwiftyVerticalScrollBar.bundle */; };
+		8F8EFF495982BA0695D4281A1018286A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		91C13382F4BE38B09D330379FBE6C911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9A5E031CCD043DF52718F8CDAF471DB2 /* SwiftyVerticalScrollBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7144C242ECAFEEE41512AA6F69401612 /* SwiftyVerticalScrollBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3BC3846EA866DA0CCABDA6E455DD52 /* Pods-SwiftyVerticalScrollBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E383D8F7D2149B9DF3D11F6D23FC911 /* Pods-SwiftyVerticalScrollBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC1A78F6276B307969F9E7A7AA143ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C126B1EDAF3C303CC3794B73A3780B42 /* Pods-SwiftyVerticalScrollBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65F5FB94B74D7D07D19BDBBC6947944 /* Pods-SwiftyVerticalScrollBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDADEF7820393BC8A9E4D3572A6C2E70 /* SwiftyVerticalScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9348A4AF0353D94393750A46F336A3A /* SwiftyVerticalScrollBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C90967B98409C256929F3529F6053A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F7A590235037C6DCCEA49D75999DF0;
+			remoteInfo = "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar";
+		};
+		8B4199A9FC5F901D1F3C14A4C3576ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B134692BB2F7E7A593AF14F9131F3721;
+			remoteInfo = SwiftyVerticalScrollBar;
+		};
+		B2668680027A322DDD8D6E994885ADFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B134692BB2F7E7A593AF14F9131F3721;
+			remoteInfo = SwiftyVerticalScrollBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E13D43C970E68F33B46EDC827B3C566 /* Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyVerticalScrollBar.xcconfig; sourceTree = "<group>"; };
+		22A516BACDC029B91585FF9476CCBDD6 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVerticalScrollBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23A638278C16720686E429122FE758AC /* Pods-SwiftyVerticalScrollBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVerticalScrollBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		266AAC6FADDD0B0C73D0E38C0A7766A7 /* SwiftyVerticalScrollBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyVerticalScrollBar.modulemap; sourceTree = "<group>"; };
+		2DE8EF7C68384016A49A149DC822202C /* Pods-SwiftyVerticalScrollBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVerticalScrollBar_Example-resources.sh"; sourceTree = "<group>"; };
+		3A9757384360B051847C575E359CFE77 /* Pods-SwiftyVerticalScrollBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyVerticalScrollBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		450F5767B66F76B8DB351D71E23523DA /* Pods_SwiftyVerticalScrollBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C81B63FF1CC2EFD5FDC2EE6023761BC /* Pods-SwiftyVerticalScrollBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftyVerticalScrollBar_Example.modulemap"; sourceTree = "<group>"; };
+		4E383D8F7D2149B9DF3D11F6D23FC911 /* Pods-SwiftyVerticalScrollBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyVerticalScrollBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		4FB5FA30A0CC7C69678FB25419220706 /* Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EAB373ABC4C5808FCC7D8184947E36C /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7144C242ECAFEEE41512AA6F69401612 /* SwiftyVerticalScrollBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyVerticalScrollBar-umbrella.h"; sourceTree = "<group>"; };
+		74C8260949FB1FFAEFBCB786E489BF70 /* SwiftyVerticalScrollBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyVerticalScrollBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1EB2C4C97FFAE876001E2B6B0DF8D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25DAF54FEA5376E78AC43E92438F6FD /* Pods-SwiftyVerticalScrollBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyVerticalScrollBar_Example-dummy.m"; sourceTree = "<group>"; };
+		A45E34B16F00694E38C33CFAE0319DFC /* Pods_SwiftyVerticalScrollBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyVerticalScrollBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DD30C98CC7E8915090DB45B4353940 /* Pods-SwiftyVerticalScrollBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVerticalScrollBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		AF3BF4F166920FD58CCFF673744FDA5F /* Pods-SwiftyVerticalScrollBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyVerticalScrollBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		B057047DCD0DDF387CACAA2C006B2945 /* SwiftyVerticalScrollBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyVerticalScrollBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65F5FB94B74D7D07D19BDBBC6947944 /* Pods-SwiftyVerticalScrollBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyVerticalScrollBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0464D1C8C037015E6766C517DE4FCBC /* SwiftyVerticalScrollBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyVerticalScrollBar-prefix.pch"; sourceTree = "<group>"; };
+		C61A22933ED3EB5C9462DDFD47F58445 /* Pods-SwiftyVerticalScrollBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyVerticalScrollBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D03270CF5E66E49D4D1D5F55730062F3 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D214D5FFB7D5F8A89A5541752DA4B0D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68DA9FB73910354E57353A9EAE8AA99 /* ResourceBundle-SwiftyVerticalScrollBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyVerticalScrollBar-Info.plist"; sourceTree = "<group>"; };
+		DCA3B04AA5EFE6EDAA4E548B8EDF58AA /* Pods-SwiftyVerticalScrollBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftyVerticalScrollBar_Tests.modulemap"; sourceTree = "<group>"; };
+		E035F2B83FB8DE19B5ACC32AE6F606BB /* Pods-SwiftyVerticalScrollBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyVerticalScrollBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0CC1EF0948BBAFE3C579B8AF2F1C4DE /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EE3DFDD4B42D50B6905FC1836DE888F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F036AF93DA9A950926EAFA3CF13AE680 /* SwiftyVerticalScrollBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyVerticalScrollBar-dummy.m"; sourceTree = "<group>"; };
+		F9348A4AF0353D94393750A46F336A3A /* SwiftyVerticalScrollBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftyVerticalScrollBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06FF20381A89661983A0D37DFBBA5FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1A78F6276B307969F9E7A7AA143ABB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7599783B35D7198293BDCA2E3CF225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF75735D5AB1556415F5B24B57C5122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C13382F4BE38B09D330379FBE6C911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60072C9FD6C3D2C5A0BD403ABE3967D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8EFF495982BA0695D4281A1018286A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287202813A1DE5D115529A16C13D6B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45E34B16F00694E38C33CFAE0319DFC /* Pods_SwiftyVerticalScrollBar_Example.framework */,
+				450F5767B66F76B8DB351D71E23523DA /* Pods_SwiftyVerticalScrollBar_Tests.framework */,
+				74C8260949FB1FFAEFBCB786E489BF70 /* SwiftyVerticalScrollBar.bundle */,
+				B057047DCD0DDF387CACAA2C006B2945 /* SwiftyVerticalScrollBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DBEA2E2A6F616626DD0D19B8A5D30B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE648E3A0047E42FF0421292484A5C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40C4063FFDE69430A6B0BF84DCECD490 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D715E9D1E69BE9A3E912058EF08CCF /* Pods-SwiftyVerticalScrollBar_Example */,
+				94093F538704D315EB8A9EBDDF0610E3 /* Pods-SwiftyVerticalScrollBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B73079AA794EFB86D3588069B0EB609 /* SwiftyVerticalScrollBar */ = {
+			isa = PBXGroup;
+			children = (
+				3DBEA2E2A6F616626DD0D19B8A5D30B2 /* Pod */,
+				D8E0738265413D289C806CD65B5D09A6 /* Support Files */,
+			);
+			name = SwiftyVerticalScrollBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F8B9C7328F9A0AEDEBDCF4AF90265C27 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				287202813A1DE5D115529A16C13D6B63 /* Products */,
+				40C4063FFDE69430A6B0BF84DCECD490 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94093F538704D315EB8A9EBDDF0610E3 /* Pods-SwiftyVerticalScrollBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EB2C4C97FFAE876001E2B6B0DF8D2 /* Info.plist */,
+				DCA3B04AA5EFE6EDAA4E548B8EDF58AA /* Pods-SwiftyVerticalScrollBar_Tests.modulemap */,
+				0E13D43C970E68F33B46EDC827B3C566 /* Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.markdown */,
+				4FB5FA30A0CC7C69678FB25419220706 /* Pods-SwiftyVerticalScrollBar_Tests-acknowledgements.plist */,
+				AF3BF4F166920FD58CCFF673744FDA5F /* Pods-SwiftyVerticalScrollBar_Tests-dummy.m */,
+				23A638278C16720686E429122FE758AC /* Pods-SwiftyVerticalScrollBar_Tests-frameworks.sh */,
+				A8DD30C98CC7E8915090DB45B4353940 /* Pods-SwiftyVerticalScrollBar_Tests-resources.sh */,
+				B65F5FB94B74D7D07D19BDBBC6947944 /* Pods-SwiftyVerticalScrollBar_Tests-umbrella.h */,
+				6EAB373ABC4C5808FCC7D8184947E36C /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */,
+				E0CC1EF0948BBAFE3C579B8AF2F1C4DE /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftyVerticalScrollBar_Tests";
+			path = "Target Support Files/Pods-SwiftyVerticalScrollBar_Tests";
+			sourceTree = "<group>";
+		};
+		98D715E9D1E69BE9A3E912058EF08CCF /* Pods-SwiftyVerticalScrollBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D214D5FFB7D5F8A89A5541752DA4B0D4 /* Info.plist */,
+				4C81B63FF1CC2EFD5FDC2EE6023761BC /* Pods-SwiftyVerticalScrollBar_Example.modulemap */,
+				E035F2B83FB8DE19B5ACC32AE6F606BB /* Pods-SwiftyVerticalScrollBar_Example-acknowledgements.markdown */,
+				3A9757384360B051847C575E359CFE77 /* Pods-SwiftyVerticalScrollBar_Example-acknowledgements.plist */,
+				A25DAF54FEA5376E78AC43E92438F6FD /* Pods-SwiftyVerticalScrollBar_Example-dummy.m */,
+				C61A22933ED3EB5C9462DDFD47F58445 /* Pods-SwiftyVerticalScrollBar_Example-frameworks.sh */,
+				2DE8EF7C68384016A49A149DC822202C /* Pods-SwiftyVerticalScrollBar_Example-resources.sh */,
+				4E383D8F7D2149B9DF3D11F6D23FC911 /* Pods-SwiftyVerticalScrollBar_Example-umbrella.h */,
+				D03270CF5E66E49D4D1D5F55730062F3 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */,
+				22A516BACDC029B91585FF9476CCBDD6 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftyVerticalScrollBar_Example";
+			path = "Target Support Files/Pods-SwiftyVerticalScrollBar_Example";
+			sourceTree = "<group>";
+		};
+		A1553AE7AA0769E8939226B2B544E9B2 /* SwiftyVerticalScrollBar */ = {
+			isa = PBXGroup;
+			children = (
+				F9348A4AF0353D94393750A46F336A3A /* SwiftyVerticalScrollBar.swift */,
+			);
+			path = SwiftyVerticalScrollBar;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E0738265413D289C806CD65B5D09A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DFDD4B42D50B6905FC1836DE888F5 /* Info.plist */,
+				D68DA9FB73910354E57353A9EAE8AA99 /* ResourceBundle-SwiftyVerticalScrollBar-Info.plist */,
+				266AAC6FADDD0B0C73D0E38C0A7766A7 /* SwiftyVerticalScrollBar.modulemap */,
+				146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */,
+				F036AF93DA9A950926EAFA3CF13AE680 /* SwiftyVerticalScrollBar-dummy.m */,
+				C0464D1C8C037015E6766C517DE4FCBC /* SwiftyVerticalScrollBar-prefix.pch */,
+				7144C242ECAFEEE41512AA6F69401612 /* SwiftyVerticalScrollBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyVerticalScrollBar";
+			sourceTree = "<group>";
+		};
+		DDFE648E3A0047E42FF0421292484A5C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1553AE7AA0769E8939226B2B544E9B2 /* SwiftyVerticalScrollBar */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8B9C7328F9A0AEDEBDCF4AF90265C27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B73079AA794EFB86D3588069B0EB609 /* SwiftyVerticalScrollBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32EB1082F1EA2D06999D94D8BAC237B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C126B1EDAF3C303CC3794B73A3780B42 /* Pods-SwiftyVerticalScrollBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F94B1AD38C01EBCF38352FF08DC32CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3BC3846EA866DA0CCABDA6E455DD52 /* Pods-SwiftyVerticalScrollBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B31378D8B9A104A4F64F6D33CEE2F0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5E031CCD043DF52718F8CDAF471DB2 /* SwiftyVerticalScrollBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19F7A590235037C6DCCEA49D75999DF0 /* SwiftyVerticalScrollBar-SwiftyVerticalScrollBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020061E230902C3437FFBF11D41B0817 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar" */;
+			buildPhases = (
+				1B16F598DA70D75A7EFF9FCA48FCCE42 /* Sources */,
+				3D7599783B35D7198293BDCA2E3CF225 /* Frameworks */,
+				FB92E941424CA215D90D9579E56F73BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar";
+			productName = "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar";
+			productReference = 74C8260949FB1FFAEFBCB786E489BF70 /* SwiftyVerticalScrollBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ACB17E3D612022B0B7D0E7AF65A65530 /* Pods-SwiftyVerticalScrollBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB8A18620247A662369FE76E3D25BAF /* Build configuration list for PBXNativeTarget "Pods-SwiftyVerticalScrollBar_Tests" */;
+			buildPhases = (
+				26F3379ED9236DB839862685BB59A106 /* Sources */,
+				F60072C9FD6C3D2C5A0BD403ABE3967D /* Frameworks */,
+				32EB1082F1EA2D06999D94D8BAC237B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC53FA26F3E3B2EC2EAC3CA42AC1142 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyVerticalScrollBar_Tests";
+			productName = "Pods-SwiftyVerticalScrollBar_Tests";
+			productReference = 450F5767B66F76B8DB351D71E23523DA /* Pods_SwiftyVerticalScrollBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B134692BB2F7E7A593AF14F9131F3721 /* SwiftyVerticalScrollBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F97B14F6BBF36F721D1CAB0C882C0D5 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar" */;
+			buildPhases = (
+				357C2010381931CD9128D8343470123E /* Sources */,
+				06FF20381A89661983A0D37DFBBA5FE4 /* Frameworks */,
+				9A0F6CAE044FA5425E398D24292853A3 /* Resources */,
+				8B31378D8B9A104A4F64F6D33CEE2F0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A15AAB36ABDF9D1D767895E479F0BEB /* PBXTargetDependency */,
+			);
+			name = SwiftyVerticalScrollBar;
+			productName = SwiftyVerticalScrollBar;
+			productReference = B057047DCD0DDF387CACAA2C006B2945 /* SwiftyVerticalScrollBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D035AD79BEA556D3837EA0115457A778 /* Pods-SwiftyVerticalScrollBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F9A9E2404DAAE21FE2E1F06FBC1D7C /* Build configuration list for PBXNativeTarget "Pods-SwiftyVerticalScrollBar_Example" */;
+			buildPhases = (
+				A56398FFB36493DD6AF6AB4F619C69D5 /* Sources */,
+				8EF75735D5AB1556415F5B24B57C5122 /* Frameworks */,
+				7F94B1AD38C01EBCF38352FF08DC32CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9214E18399C0FEC81B7837C3A96D7C9A /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftyVerticalScrollBar_Example";
+			productName = "Pods-SwiftyVerticalScrollBar_Example";
+			productReference = A45E34B16F00694E38C33CFAE0319DFC /* Pods_SwiftyVerticalScrollBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					19F7A590235037C6DCCEA49D75999DF0 = {
+						LastSwiftMigration = 0810;
+					};
+					ACB17E3D612022B0B7D0E7AF65A65530 = {
+						LastSwiftMigration = 0810;
+					};
+					B134692BB2F7E7A593AF14F9131F3721 = {
+						LastSwiftMigration = 0810;
+					};
+					D035AD79BEA556D3837EA0115457A778 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 287202813A1DE5D115529A16C13D6B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D035AD79BEA556D3837EA0115457A778 /* Pods-SwiftyVerticalScrollBar_Example */,
+				ACB17E3D612022B0B7D0E7AF65A65530 /* Pods-SwiftyVerticalScrollBar_Tests */,
+				B134692BB2F7E7A593AF14F9131F3721 /* SwiftyVerticalScrollBar */,
+				19F7A590235037C6DCCEA49D75999DF0 /* SwiftyVerticalScrollBar-SwiftyVerticalScrollBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0F6CAE044FA5425E398D24292853A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2FA84D66EE798F63C9EE6582731387 /* SwiftyVerticalScrollBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB92E941424CA215D90D9579E56F73BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B16F598DA70D75A7EFF9FCA48FCCE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F3379ED9236DB839862685BB59A106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F07B6F77AF0E754CF65569564F058BF /* Pods-SwiftyVerticalScrollBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357C2010381931CD9128D8343470123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507B52B393C3119AC92567430503934A /* SwiftyVerticalScrollBar-dummy.m in Sources */,
+				FDADEF7820393BC8A9E4D3572A6C2E70 /* SwiftyVerticalScrollBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56398FFB36493DD6AF6AB4F619C69D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736501BA57FFDB12B2CD5BF8A80F5009 /* Pods-SwiftyVerticalScrollBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DC53FA26F3E3B2EC2EAC3CA42AC1142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyVerticalScrollBar;
+			target = B134692BB2F7E7A593AF14F9131F3721 /* SwiftyVerticalScrollBar */;
+			targetProxy = 8B4199A9FC5F901D1F3C14A4C3576ACE /* PBXContainerItemProxy */;
+		};
+		3A15AAB36ABDF9D1D767895E479F0BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar";
+			target = 19F7A590235037C6DCCEA49D75999DF0 /* SwiftyVerticalScrollBar-SwiftyVerticalScrollBar */;
+			targetProxy = 5C90967B98409C256929F3529F6053A6 /* PBXContainerItemProxy */;
+		};
+		9214E18399C0FEC81B7837C3A96D7C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyVerticalScrollBar;
+			target = B134692BB2F7E7A593AF14F9131F3721 /* SwiftyVerticalScrollBar */;
+			targetProxy = B2668680027A322DDD8D6E994885ADFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		009408A40D81990ECDED5C214850F99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyVerticalScrollBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftyVerticalScrollBar/ResourceBundle-SwiftyVerticalScrollBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftyVerticalScrollBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E679F5B1287241E8F1107CA636C8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03270CF5E66E49D4D1D5F55730062F3 /* Pods-SwiftyVerticalScrollBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVerticalScrollBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FB20BF42F727ABBEF39CFCE62B52DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAB373ABC4C5808FCC7D8184947E36C /* Pods-SwiftyVerticalScrollBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVerticalScrollBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74D76A6163FEA05D875C2CB9B52B91AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyVerticalScrollBar/SwiftyVerticalScrollBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyVerticalScrollBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyVerticalScrollBar/SwiftyVerticalScrollBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyVerticalScrollBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AFB0A069F21AA502BF94803813AF0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A516BACDC029B91585FF9476CCBDD6 /* Pods-SwiftyVerticalScrollBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Example/Pods-SwiftyVerticalScrollBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVerticalScrollBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95B14E1C7C19A809109F16914100AB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyVerticalScrollBar/SwiftyVerticalScrollBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyVerticalScrollBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyVerticalScrollBar/SwiftyVerticalScrollBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyVerticalScrollBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3E2B44C0077C396E315D7E879A1E1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146013580BABEEFE07BF0F3FB6A03BF3 /* SwiftyVerticalScrollBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyVerticalScrollBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftyVerticalScrollBar/ResourceBundle-SwiftyVerticalScrollBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftyVerticalScrollBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D07D7EC44D7F77EE4CAB2FFDB02AD214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CC1EF0948BBAFE3C579B8AF2F1C4DE /* Pods-SwiftyVerticalScrollBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyVerticalScrollBar_Tests/Pods-SwiftyVerticalScrollBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftyVerticalScrollBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020061E230902C3437FFBF11D41B0817 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar-SwiftyVerticalScrollBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009408A40D81990ECDED5C214850F99A /* Debug */,
+				B3E2B44C0077C396E315D7E879A1E1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F97B14F6BBF36F721D1CAB0C882C0D5 /* Build configuration list for PBXNativeTarget "SwiftyVerticalScrollBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D76A6163FEA05D875C2CB9B52B91AB /* Debug */,
+				95B14E1C7C19A809109F16914100AB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F9A9E2404DAAE21FE2E1F06FBC1D7C /* Build configuration list for PBXNativeTarget "Pods-SwiftyVerticalScrollBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E679F5B1287241E8F1107CA636C8F9 /* Debug */,
+				7AFB0A069F21AA502BF94803813AF0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB8A18620247A662369FE76E3D25BAF /* Build configuration list for PBXNativeTarget "Pods-SwiftyVerticalScrollBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB20BF42F727ABBEF39CFCE62B52DAF /* Debug */,
+				D07D7EC44D7F77EE4CAB2FFDB02AD214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
