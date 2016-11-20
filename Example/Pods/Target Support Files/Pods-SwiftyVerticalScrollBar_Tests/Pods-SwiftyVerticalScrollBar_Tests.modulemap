@@ -1,0 +1,6 @@
+framework module Pods_SwiftyVerticalScrollBar_Tests {
+  umbrella header "Pods-SwiftyVerticalScrollBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

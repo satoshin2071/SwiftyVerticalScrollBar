@@ -8,77 +8,77 @@ import Foundation
 import UIKit
 import QuartzCore
 
-public class SwiftyVerticalScrollBar : UIControl {
+open class SwiftyVerticalScrollBar : UIControl {
     
     //-------------------------
     // MARK: - stored property
     //-------------------------
     
-    private (set) var targetScrollView :UIScrollView
+    fileprivate (set) var targetScrollView :UIScrollView
     
-    private (set) var isHandleDragged = false
+    fileprivate (set) var isHandleDragged = false
     
-    private (set) var handleHitArea = CGRectZero
+    fileprivate (set) var handleHitArea = CGRect.zero
     
-    private (set) var lastTouchLocation = CGPointZero
+    fileprivate (set) var lastTouchLocation = CGPoint.zero
     
-    private let handleWidth : CGFloat = 5.0
+    fileprivate let handleWidth : CGFloat = 5.0
     
-    private let handleSelectedWidth : CGFloat = 15.0
+    fileprivate let handleSelectedWidth : CGFloat = 15.0
     
-    private let handleHitWidth : CGFloat = 44.0
+    fileprivate let handleHitWidth : CGFloat = 44.0
     
-    private let handleMinimumHeight : CGFloat = 70.0
+    fileprivate let handleMinimumHeight : CGFloat = 70.0
     
     //---------------------------
     // MARK: - computed property
     //---------------------------
     
-    private var _handleLayer = CALayer()
-    private var handleLayer : CALayer {
+    fileprivate var _handleLayer = CALayer()
+    fileprivate var handleLayer : CALayer {
         get {
             return _handleLayer
         }
         set {
             _handleLayer.cornerRadius = self.handleCornerRadius
-            _handleLayer.anchorPoint = CGPointMake(1.0, 0)
-            _handleLayer.frame = CGRectMake(0, 0, self.handleWidth, 0)
-            _handleLayer.backgroundColor = self.normalColor.CGColor
+            _handleLayer.anchorPoint = CGPoint(x: 1.0, y: 0)
+            _handleLayer.frame = CGRect(x: 0, y: 0, width: self.handleWidth, height: 0)
+            _handleLayer.backgroundColor = self.normalColor.cgColor
         }
     }
     
-    private var handleCornerRadius : CGFloat {
-            return self.handleWidth * 0.5
+    fileprivate var handleCornerRadius : CGFloat {
+        return self.handleWidth * 0.5
     }
     
-    private var handleSelectedCornerRadius : CGFloat {
-            return self.handleSelectedWidth * 0.5
+    fileprivate var handleSelectedCornerRadius : CGFloat {
+        return self.handleSelectedWidth * 0.5
     }
     
-    private var isHandleVisible : Bool {
-            return self.handleLayer.opacity == 1.0
+    fileprivate var isHandleVisible : Bool {
+        return self.handleLayer.opacity == 1.0
     }
     
-    private var contentHeight : CGFloat {
+    fileprivate var contentHeight : CGFloat {
         return self.targetScrollView.contentSize.height
     }
     
-    private var frameHeight : CGFloat {
+    fileprivate var frameHeight : CGFloat {
         return self.targetScrollView.frame.size.height
     }
     
     /// Calculate the current scroll value
-    private var currentScrollValue : CGFloat {
+    fileprivate var currentScrollValue : CGFloat {
         return (self.contentHeight - self.frameHeight == 0) ? 0
             : self.targetScrollView.contentOffset.y / (self.contentHeight - self.frameHeight);
     }
     
     /// Set the handleHeight that is proportional to the contentHeight
-    private var handleHeight : CGFloat {
+    fileprivate var handleHeight : CGFloat {
         return SwiftyVerticalScrollBar.CLAMP((self.frameHeight / self.contentHeight) * bounds.size.height, low:self.handleMinimumHeight , high:bounds.size.height )
     }
     
-    private var handlePreviousWidth : CGFloat {
+    fileprivate var handlePreviousWidth : CGFloat {
         return self.handleLayer.bounds.size.width > 0 ? self.handleLayer.bounds.size.width : self.handleWidth;
     }
     
@@ -92,12 +92,12 @@ public class SwiftyVerticalScrollBar : UIControl {
         self.setup()
     }
     
-    @available (*, unavailable, message="Let's use the init(identifier) instead")
+    @available (*, unavailable, message: "Let's use the init(identifier) instead")
     required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func setup() {
+    fileprivate func setup() {
         self.handleLayer = CALayer()
         self.layer.addSublayer(self.handleLayer)
         
@@ -112,7 +112,7 @@ public class SwiftyVerticalScrollBar : UIControl {
         self.targetScrollView.removeObserver(self, Key: .contentSize)
     }
     
-    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         guard (object as? UIScrollView) == self.targetScrollView else {
             return
@@ -125,7 +125,7 @@ public class SwiftyVerticalScrollBar : UIControl {
     // MARK: - layout
     //----------------------
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         guard self.contentHeight >= self.frameHeight else {
@@ -144,16 +144,16 @@ public class SwiftyVerticalScrollBar : UIControl {
         
         // ScrollValue is such that the handle when approaching the 1 do not go out of the screen, to map the position not only move the handle
         let handleY : CGFloat = SwiftyVerticalScrollBar.CLAMP((scrollValue * bounds.size.height) - (scrollValue * handleHeight), low: 0, high: bounds.size.height - handleHeight)
-
-        self.handleLayer.position = CGPointMake(bounds.size.width, handleY)
-        self.handleLayer.bounds = CGRectMake(0, 0, self.handlePreviousWidth, handleHeight)
-        self.handleHitArea = CGRectMake(bounds.size.width - self.handleHitWidth, handleY,
-        self.handleHitWidth, handleHeight);
+        
+        self.handleLayer.position = CGPoint(x: bounds.size.width, y: handleY)
+        self.handleLayer.bounds = CGRect(x: 0, y: 0, width: self.handlePreviousWidth, height: handleHeight)
+        self.handleHitArea = CGRect(x: bounds.size.width - self.handleHitWidth, y: handleY,
+                                    width: self.handleHitWidth, height: handleHeight);
         
         CATransaction.commit()
     }
     
-    private func handleTransform(expand expand:Bool) {
+    fileprivate func handleTransform(expand:Bool) {
         
         guard self.isHandleVisible else{
             return
@@ -164,12 +164,12 @@ public class SwiftyVerticalScrollBar : UIControl {
         
         if (expand) {
             self.handleLayer.cornerRadius = self.handleSelectedCornerRadius
-            self.handleLayer.bounds = CGRectMake(0, 0, self.handleSelectedWidth, self.handleLayer.bounds.size.height)
-            self.handleLayer.backgroundColor = self.selectedColor.CGColor
+            self.handleLayer.bounds = CGRect(x: 0, y: 0, width: self.handleSelectedWidth, height: self.handleLayer.bounds.size.height)
+            self.handleLayer.backgroundColor = self.selectedColor.cgColor
         } else {
             self.handleLayer.cornerRadius = self.handleCornerRadius
-            self.handleLayer.bounds = CGRectMake(0, 0, self.handleWidth, self.handleLayer.bounds.size.height)
-            self.handleLayer.backgroundColor = self.normalColor.CGColor
+            self.handleLayer.bounds = CGRect(x: 0, y: 0, width: self.handleWidth, height: self.handleLayer.bounds.size.height)
+            self.handleLayer.backgroundColor = self.normalColor.cgColor
         }
         
         CATransaction.commit()
@@ -179,13 +179,13 @@ public class SwiftyVerticalScrollBar : UIControl {
     // MARK: - override UIControl method
     //----------------------------------
     
-    override public func beginTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
+    override open func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         
         guard self.isHandleVisible else{
             return false
         }
         
-        self.lastTouchLocation = touch.locationInView(self)
+        self.lastTouchLocation = touch.location(in: self)
         self.isHandleDragged = true
         self.handleTransform(expand: true)
         
@@ -194,9 +194,9 @@ public class SwiftyVerticalScrollBar : UIControl {
         return true
     }
     
-    override public func continueTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
-
-        let touchLocation = touch.locationInView(self)
+    override open func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+        
+        let touchLocation = touch.location(in: self)
         
         let contentSize = self.targetScrollView.contentSize
         let contentOffset = self.targetScrollView.contentOffset
@@ -205,14 +205,14 @@ public class SwiftyVerticalScrollBar : UIControl {
         
         let offsetY = SwiftyVerticalScrollBar.CLAMP(contentOffset.y+deltaY, low: 0, high: contentSize.height - frameHeight)
         
-        self.targetScrollView.setContentOffset(CGPointMake(contentOffset.x, offsetY), animated: false)
+        self.targetScrollView.setContentOffset(CGPoint(x: contentOffset.x, y: offsetY), animated: false)
         self.lastTouchLocation = touchLocation
         
         return true
     }
     
-    override public func endTrackingWithTouch(touch: UITouch?, withEvent event: UIEvent?) {
-        self.lastTouchLocation = CGPointZero
+    override open func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+        self.lastTouchLocation = CGPoint.zero
         self.isHandleDragged = false
         self.handleTransform(expand: false)
     }
@@ -233,7 +233,7 @@ private extension SwiftyVerticalScrollBar {
         return UIColor(white: 0.4, alpha: 1.0)
     }
     
-    static func CLAMP(value:CGFloat,low:CGFloat,high:CGFloat) -> CGFloat {
+    static func CLAMP(_ value:CGFloat,low:CGFloat,high:CGFloat) -> CGFloat {
         if value > high {
             return high
         }else if low > value {
@@ -251,7 +251,7 @@ protocol Keycodable {
 extension UIScrollView : Keycodable {
     
     var KVOOptions : NSKeyValueObservingOptions {
-        return NSKeyValueObservingOptions([.New, .Old, .Prior])
+        return NSKeyValueObservingOptions([.new, .old, .prior])
     }
     
     enum ObserverKeys : String {
@@ -259,11 +259,11 @@ extension UIScrollView : Keycodable {
         case contentSize
     }
     
-    func addObserver(observer: NSObject, Key key: ObserverKeys) {
+    func addObserver(_ observer: NSObject, Key key: ObserverKeys) {
         self.addObserver(observer, forKeyPath: key.rawValue , options: KVOOptions, context: nil)
     }
     
-    func removeObserver(observer: NSObject, Key key: ObserverKeys) {
+    func removeObserver(_ observer: NSObject, Key key: ObserverKeys) {
         self.removeObserver(observer, forKeyPath: key.rawValue, context: nil)
     }
 }

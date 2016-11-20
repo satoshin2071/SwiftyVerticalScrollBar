@@ -9,7 +9,7 @@ A custom scrollbar for a UIScrollView or UIScrollView's subclasses. This is a re
 
 ## Requirements
 
-Swift 2.2
+Swift 3.0
 
 ## Installation
 
@@ -43,7 +43,7 @@ DemoViewController.swift
 override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.scrollBar = SwiftyVerticalScrollBar(frame: CGRectZero, targetScrollView: self.tableView)
+        self.scrollBar = SwiftyVerticalScrollBar(frame: CGRect.zero, targetScrollView: self.tableView)
         self.view.addSubview(self.scrollBar!)
 }
 ```
@@ -56,7 +56,7 @@ DemoViewController.swift
 override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        self.scrollBar.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)
+        self.scrollBar.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
 }
 
 ```
